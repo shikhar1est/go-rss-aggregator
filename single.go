@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	feedURL := "https://hnrss.org/frontpage"
+	feedURL := "https://hnrss.org/newest"
 	rss, err := fetchRSS(feedURL)
 	if err != nil {
 		fmt.Println("Error fetching RSS feed:", err)
