@@ -5,9 +5,9 @@ import (
 )
 func main() {
 	feeds:=[]string{
-		"https://hnrss.org/newest",         // Hacker News
-		"https://hnrss.org/frontpage",      // Hacker News frontpage
-		"https://xkcd.com/rss.xml",  	 // XKCD comics
+		"https://hnrss.org/newest",      
+		"https://hnrss.org/frontpage",     
+		"https://xkcd.com/rss.xml",  	
 	}
 	ch:=make(chan *RSS)
 		for _, url := range feeds {
